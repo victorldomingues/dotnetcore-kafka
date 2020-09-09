@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91C87EFC-AC0E-4247-9114-E3A0F1C0FF6D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.Order", "src\Kafka\Kafka.Order.csproj", "{EFFD6C7D-2E5E-4953-8E52-F576E3FA9F31}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Stock", "src\Kafka.Stock\Kafka.Stock.csproj", "{B31A0627-6B99-4BBB-9546-EB72A5F0EE4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka.Order", "src\Kafka.Order\Kafka.Order.csproj", "{459FFC4B-8F9A-4A46-8D4A-9CC4FB91A6C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,21 +15,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EFFD6C7D-2E5E-4953-8E52-F576E3FA9F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFFD6C7D-2E5E-4953-8E52-F576E3FA9F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFFD6C7D-2E5E-4953-8E52-F576E3FA9F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFFD6C7D-2E5E-4953-8E52-F576E3FA9F31}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B31A0627-6B99-4BBB-9546-EB72A5F0EE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B31A0627-6B99-4BBB-9546-EB72A5F0EE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B31A0627-6B99-4BBB-9546-EB72A5F0EE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B31A0627-6B99-4BBB-9546-EB72A5F0EE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{459FFC4B-8F9A-4A46-8D4A-9CC4FB91A6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{459FFC4B-8F9A-4A46-8D4A-9CC4FB91A6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{459FFC4B-8F9A-4A46-8D4A-9CC4FB91A6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{459FFC4B-8F9A-4A46-8D4A-9CC4FB91A6C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{EFFD6C7D-2E5E-4953-8E52-F576E3FA9F31} = {91C87EFC-AC0E-4247-9114-E3A0F1C0FF6D}
 		{B31A0627-6B99-4BBB-9546-EB72A5F0EE4B} = {91C87EFC-AC0E-4247-9114-E3A0F1C0FF6D}
+		{459FFC4B-8F9A-4A46-8D4A-9CC4FB91A6C7} = {91C87EFC-AC0E-4247-9114-E3A0F1C0FF6D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35492CD1-3A55-4258-A049-1958E2D95608}
